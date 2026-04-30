@@ -34,8 +34,8 @@ The `gui_example/` folder contains everything you need to try the GUI:
 
 The spectrum covers **26 851 – 54 997 Å** (observed frame). At z = 6.69
 the Hα 6564.6 Å line is redshifted to ~50 489 Å. The fit model consists
-of a power-law continuum, three Gaussians (broad + narrow Hα components
-plus [N II]), and a foreground absorption line.
+of a power-law continuum, three Gaussians (2 broad + 1 narrow Hα components
+), and an absorption line.
 
 ### Step-by-step
 
