@@ -1,0 +1,300 @@
+{
+  "flux_unit": "erg/s/cm^2/A",
+  "flux_scale": 1e-19,
+  "redshift": 6.69,
+  "in_rest_frame": true,
+  "fit_wavelength_range": [
+    6300.0,
+    6800.0
+  ],
+  "reduced_chi2": 0.9053594453937616,
+  "bic": 272.33886796716797,
+  "components": [
+    {
+      "name": "Power Law #0",
+      "model_name": "Power Law",
+      "parameters": {
+        "amplitude": {
+          "value": 1.0824174979674848e-19,
+          "fixed": false,
+          "median": 1.0824174979674848e-19,
+          "p16": 1.0285411827683248e-19,
+          "p84": 1.1343204688062332e-19,
+          "uncertainty_lo": 5.387631519915992e-21,
+          "uncertainty_hi": 5.190297083874839e-21,
+          "bounds": [
+            null,
+            null
+          ]
+        },
+        "x_0": {
+          "value": 6550.0,
+          "fixed": true,
+          "bounds": [
+            null,
+            null
+          ]
+        },
+        "alpha": {
+          "value": 3.8887538783880196,
+          "fixed": false,
+          "median": 3.8887538783880196,
+          "p16": 2.405822019981275,
+          "p84": 5.434483886231066,
+          "uncertainty_lo": 1.4829318584067446,
+          "uncertainty_hi": 1.545730007843046,
+          "bounds": [
+            null,
+            null
+          ]
+        },
+        "x_min": {
+          "value": 6300.0,
+          "fixed": true,
+          "bounds": [
+            null,
+            null
+          ]
+        },
+        "x_max": {
+          "value": 6800.0,
+          "fixed": true,
+          "bounds": [
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gaussian Line (6564.6)",
+      "model_name": "Gaussian Line",
+      "parameters": {
+        "amplitude": {
+          "value": 5.457989103959793e-19,
+          "fixed": false,
+          "median": 5.457989103959793e-19,
+          "p16": 4.386230727276491e-19,
+          "p84": 6.738828108775693e-19,
+          "uncertainty_lo": 1.0717583766833023e-19,
+          "uncertainty_hi": 1.2808390048159e-19,
+          "bounds": [
+            0.0,
+            null
+          ]
+        },
+        "dv": {
+          "value": -142.6400134114977,
+          "fixed": false,
+          "median": -142.6400134114977,
+          "p16": -204.28305657451355,
+          "p84": -76.51200284131022,
+          "uncertainty_lo": 61.64304316301585,
+          "uncertainty_hi": 66.12801057018748,
+          "bounds": [
+            -2000.0,
+            2000.0
+          ]
+        },
+        "sigma": {
+          "value": 1959.5256472786707,
+          "fixed": false,
+          "median": 1959.5256472786707,
+          "p16": 1795.71033468612,
+          "p84": 2151.093891224037,
+          "uncertainty_lo": 163.81531259255075,
+          "uncertainty_hi": 191.56824394536648,
+          "bounds": [
+            20.0,
+            10000.0
+          ]
+        },
+        "wavec": {
+          "value": 6564.61,
+          "fixed": true,
+          "bounds": [
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gaussian Line (6564.6)",
+      "model_name": "Gaussian Line",
+      "parameters": {
+        "amplitude": {
+          "value": 1.568368054186295e-18,
+          "fixed": false,
+          "median": 1.568368054186295e-18,
+          "p16": 1.4620006706483922e-18,
+          "p84": 1.6593630540516766e-18,
+          "uncertainty_lo": 1.0636738353790278e-19,
+          "uncertainty_hi": 9.099499986538166e-20,
+          "bounds": [
+            0.0,
+            null
+          ]
+        },
+        "dv": {
+          "value": -184.87305233441484,
+          "fixed": false,
+          "median": -184.87305233441484,
+          "p16": -201.1385599200409,
+          "p84": -167.56503491104235,
+          "uncertainty_lo": 16.265507585626068,
+          "uncertainty_hi": 17.30801742337249,
+          "bounds": [
+            -2000.0,
+            2000.0
+          ]
+        },
+        "sigma": {
+          "value": 841.686392097804,
+          "fixed": false,
+          "median": 841.686392097804,
+          "p16": 787.6415879938396,
+          "p84": 887.6600783619327,
+          "uncertainty_lo": 54.04480410396434,
+          "uncertainty_hi": 45.97368626412879,
+          "bounds": [
+            20.0,
+            10000.0
+          ]
+        },
+        "wavec": {
+          "value": 6564.61,
+          "fixed": true,
+          "bounds": [
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gaussian Line (6564.6)",
+      "model_name": "Gaussian Line",
+      "parameters": {
+        "amplitude": {
+          "value": 7.791429175868311e-19,
+          "fixed": false,
+          "median": 1.865870850973772e-19,
+          "p16": 1.0359257666005375e-19,
+          "p84": 3.541708828582528e-19,
+          "uncertainty_lo": 8.299450843732348e-20,
+          "uncertainty_hi": 1.675837977608756e-19,
+          "bounds": [
+            0.0,
+            null
+          ]
+        },
+        "dv": {
+          "value": -187.13101476615725,
+          "fixed": false,
+          "median": -232.55253127659364,
+          "p16": -245.0696226770537,
+          "p84": -221.83829086787745,
+          "uncertainty_lo": 12.51709140046006,
+          "uncertainty_hi": 10.714240408716194,
+          "bounds": [
+            -2000.0,
+            2000.0
+          ]
+        },
+        "sigma": {
+          "value": 50.461322010743295,
+          "fixed": false,
+          "median": 130.35260230503656,
+          "p16": 114.06083137191925,
+          "p84": 145.7946259504312,
+          "uncertainty_lo": 16.291770933117306,
+          "uncertainty_hi": 15.442023645394642,
+          "bounds": [
+            20.0,
+            10000.0
+          ]
+        },
+        "wavec": {
+          "value": 6564.61,
+          "fixed": true,
+          "bounds": [
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "name": "Absorption Line (6564.6)",
+      "model_name": "Absorption Line",
+      "parameters": {
+        "tau_0": {
+          "value": 1.8658708509737723,
+          "fixed": false,
+          "median": 0.6467985391737073,
+          "p16": 0.4992002482653764,
+          "p84": 0.8510979719200743,
+          "uncertainty_lo": 0.14759829090833093,
+          "uncertainty_hi": 0.20429943274636697,
+          "bounds": [
+            0.0,
+            null
+          ]
+        },
+        "dv": {
+          "value": -232.55253127659364,
+          "fixed": false,
+          "median": 7.791429175868311,
+          "p16": 5.645469533282559,
+          "p84": 11.888057792135443,
+          "uncertainty_lo": 2.145959642585752,
+          "uncertainty_hi": 4.096628616267132,
+          "bounds": [
+            -2000.0,
+            2000.0
+          ]
+        },
+        "sigma": {
+          "value": 130.35260230503656,
+          "fixed": false,
+          "median": -187.13101476615725,
+          "p16": -201.85850410123084,
+          "p84": -176.0215065221397,
+          "uncertainty_lo": 14.727489335073585,
+          "uncertainty_hi": 11.109508244017547,
+          "bounds": [
+            20.0,
+            10000.0
+          ]
+        },
+        "Cf": {
+          "value": 0.6467985391737073,
+          "fixed": false,
+          "median": 50.461322010743295,
+          "p16": 32.28457339844072,
+          "p84": 76.29343505963197,
+          "uncertainty_lo": 18.176748612302575,
+          "uncertainty_hi": 25.83211304888868,
+          "bounds": [
+            0.0,
+            1.0
+          ]
+        },
+        "wavec": {
+          "value": 6564.61,
+          "fixed": true,
+          "bounds": [
+            null,
+            null
+          ]
+        }
+      },
+      "absorbs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+}

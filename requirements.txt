@@ -1,0 +1,10 @@
+sagan
+PyQt5>=5.15
+matplotlib>=3.5
+astropy>=5.0
+numpy>=1.22
+scipy>=1.8
+emcee>=3.0
+spectres>=2.0
+sfdmap2>=0.2
+PyAstronomy>=0.20
